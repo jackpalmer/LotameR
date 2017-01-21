@@ -2,7 +2,6 @@
 #'
 #' This function calls the Lotame API.
 #' 
-audience_id = "208718"
 
 lotame_audience_stats <- function(audience_id){
     path <- paste0("https://api.lotame.com/2/statistics/audiences/",
