@@ -29,13 +29,13 @@ To start generate a ticket granting ticket, which is valid for 3 hours.
 ticket <- lotame_ticket("username","password")
 ```
 
-To return a list of audiences in the client account call:
+To return a data.frame of audiences in the client account call:
 
 ```r
 audiences <- lotame_audiences(client_id = "client_id")
 ```
 
-To generate a list of
+To generate a data.frame of affinity data for an audience call:
 
 ```r
 affinity_data <- lotame_audience_affinity(audience_id = "audience_id",
