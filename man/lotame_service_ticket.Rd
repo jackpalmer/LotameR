@@ -7,6 +7,6 @@
 lotame_service_ticket(call)
 }
 \description{
-This function generates a service ticket for the Lotame API using a path.
+This function calls the Lotame API for the set path.
 }
 

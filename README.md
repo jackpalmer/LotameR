@@ -9,7 +9,7 @@
 The package can be installed using the following code:
 
 ```r
-library(LotameR)
+library(devtools)
 install_github(c("jackpalmer/LotameR", "jackpalmer/LotameR"))
 ```
 

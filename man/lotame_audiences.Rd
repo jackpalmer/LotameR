@@ -2,11 +2,11 @@
 % Please edit documentation in R/lotame_audiences.R
 \name{lotame_audiences}
 \alias{lotame_audiences}
-\title{Lotame API Call}
+\title{Lotame Audiences}
 \usage{
 lotame_audiences(client_id)
 }
 \description{
-This function calls the Lotame API.
+This function returns a data frame of audiences for the requested client.
 }
 
