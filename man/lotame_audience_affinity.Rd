@@ -12,6 +12,6 @@ lotame_audience_affinity(audience_id, with_counts = "false",
   paginate_query = FALSE)
 }
 \description{
-This function calls the Lotame API.
+This function generates a data frame of the affinities for the requested audience.
 }
 
