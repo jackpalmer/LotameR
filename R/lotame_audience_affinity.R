@@ -1,6 +1,8 @@
-#' Lotame Audience Affinity
-#'
-#' This function calls the Lotame API.
+#'@title Lotame Audience Affinity
+#'@description
+#'This function generates a data frame of the affinities for the requested audience.
+#'  
+#'@export 
 lotame_audience_affinity <- function(audience_id,
                                      with_counts = "false",
                                      min_uniques = 1000,
