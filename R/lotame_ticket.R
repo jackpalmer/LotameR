@@ -1,7 +1,6 @@
 #' Lotame Ticket
 #'
 #' This function generates a ticket generating ticket from the Lotame API.
-
 lotame_ticket <- function(username,password){
   # Set variables
   body <- list(username = username, 

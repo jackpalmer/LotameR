@@ -1,7 +1,6 @@
 #' Lotame Audience Affinity
 #'
 #' This function calls the Lotame API.
-
 lotame_audience_affinity <- function(audience_id,
                                      with_counts = "false",
                                      min_uniques = 1000,
