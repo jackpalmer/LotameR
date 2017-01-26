@@ -1,6 +1,12 @@
-#' Lotame Ticket
+#'@title Lotame Ticket Granting Ticket
+#'@description
+#'Generate a ticket granting ticket from the Lotame API, valid for 3 hours.
+#'  
+#'@export 
 #'
-#' This function generates a ticket generating ticket from the Lotame API.
+#'@param  username Lotame username
+#'
+#'@return ticket granting ticket
 lotame_ticket <- function(username,password){
   # Set variables
   body <- list(username = username, 

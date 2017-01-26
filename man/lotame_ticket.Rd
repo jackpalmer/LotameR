@@ -2,11 +2,17 @@
 % Please edit documentation in R/lotame_ticket.R
 \name{lotame_ticket}
 \alias{lotame_ticket}
-\title{Lotame Ticket}
+\title{Lotame Ticket Granting Ticket}
 \usage{
 lotame_ticket(username, password)
 }
+\arguments{
+\item{username}{Lotame username}
+}
+\value{
+ticket granting ticket
+}
 \description{
-This function generates a ticket generating ticket from the Lotame API.
+Generate a ticket granting ticket from the Lotame API, valid for 3 hours.
 }
 
