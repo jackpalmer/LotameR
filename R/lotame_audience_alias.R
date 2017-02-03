@@ -7,6 +7,6 @@ lotame_behavior_alias <- function(audience_id){
                    audience_id,
                    "/aliases")
     service_ticket <- lotame_service_ticket(path)
-    req <- fromJSON(paste0(path,"?ticket=",service_ticket),flatten = T)
+    req <- jsonlite::fromJSON(paste0(path,"?ticket=",service_ticket), flatten = T)
     return(req)
 }

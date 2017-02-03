@@ -48,7 +48,7 @@ lotame_audience_affinity <- function(audience_id,
                    "&sort_order=",
                    sort_order)
     service_ticket <- lotame_service_ticket(path)
-    req <- fromJSON(paste0(path,"&ticket=",service_ticket))
+    req <- jsonlite::fromJSON(paste0(path,"&ticket=",service_ticket))
     affinities <- req$audienceAffinities
     affinities$audienceId <- req$audienceId
     affinities$audienceName <- req$audienceName
@@ -84,7 +84,7 @@ lotame_audience_affinity <- function(audience_id,
                    "&sort_order=",
                    sort_order)
     service_ticket <- lotame_service_ticket(path)
-    req <- fromJSON(paste0(path,"&ticket=",service_ticket))
+    req <- jsonlite::fromJSON(paste0(path,"&ticket=",service_ticket))
     affinities <- req$audienceAffinities
     affinities$audienceId <- req$audienceId
     affinities$audienceName <- req$audienceName
@@ -123,7 +123,7 @@ lotame_audience_affinity <- function(audience_id,
                      "&sort_order=",
                      sort_order)
       service_ticket <- lotame_service_ticket(path)
-      req <- fromJSON(paste0(path,"&ticket=",service_ticket))
+      req <- jsonlite::fromJSON(paste0(path,"&ticket=",service_ticket))
       affinities <- req$audienceAffinities
       affinities$audienceId <- req$audienceId
       affinities$audienceName <- req$audienceName

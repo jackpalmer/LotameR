@@ -2,11 +2,12 @@ Package: LotameR
 Title: R Wrapper for the Lotame API
 Version: 0.0.1
 Authors@R: person("Jack", "Palmer", email = "jpalmer@3qdigital.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: An R package to interact with the Lotame API and allow easy extraction of data to R for analysis purposes.
 Depends:
     R (>= 3.3.1)
 Imports:
-    httr
+    httr,
+    jsonlite
 License: MIT
 Encoding: UTF-8
 LazyData: true
