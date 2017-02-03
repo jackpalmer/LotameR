@@ -4,6 +4,7 @@
 #'  
 #'@export 
 lotame_audiences <- function(client_id){
+  options(scipen=999)
   path <- paste0("https://api.lotame.com/2/audiences?client_id=",client_id)
   service_ticket <- lotame_service_ticket(path)
   req <- jsonlite::fromJSON(paste0(path,"&ticket=",service_ticket))

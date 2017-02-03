@@ -4,6 +4,7 @@
 #'  
 #'@export 
 lotame_audience_info <- function(audience_id){
+    options(scipen=999)
     path <- paste0("https://api.lotame.com/2/audiences/",
                    audience_id)
     service_ticket <- lotame_service_ticket(path)
