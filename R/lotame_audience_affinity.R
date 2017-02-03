@@ -20,7 +20,7 @@ lotame_audience_affinity <- function(audience_id,
                                      paginate_query = FALSE){
   if (paginate_query != T) {
     path <- paste0("https://api.lotame.com/2/statistics/audiences/",
-                   audience_id,
+                   format(audience_id, scientific=FALSE),,
                    "/affinity?with_counts=",
                    with_counts,
                    "&min_uniques=",
@@ -56,7 +56,7 @@ lotame_audience_affinity <- function(audience_id,
   } else if (paginate_query == T) {
     d <- NULL
     path <- paste0("https://api.lotame.com/2/statistics/audiences/",
-                   audience_id,
+                   format(audience_id, scientific=FALSE),
                    "/affinity?with_counts=",
                    with_counts,
                    "&min_uniques=",
@@ -95,7 +95,7 @@ lotame_audience_affinity <- function(audience_id,
       if(y == 0) next
       page_num <- page_num + 1
       path <- paste0("https://api.lotame.com/2/statistics/audiences/",
-                     audience_id,
+                     format(audience_id, scientific=FALSE),,
                      "/affinity?with_counts=",
                      with_counts,
                      "&min_uniques=",
