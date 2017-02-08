@@ -4,7 +4,7 @@
 \alias{lotame_audiences}
 \title{Lotame Audiences}
 \usage{
-lotame_audiences(client_id)
+lotame_audiences(client_id, page_count = 50)
 }
 \description{
 This function returns a data frame of audiences for the requested client.
