@@ -4,6 +4,7 @@
 #'  
 #'@export 
 lotame_audience_affinity <- function(audience_id,
+                                     region_id = NULL,
                                      with_counts = "false",
                                      min_uniques = 1000,
                                      min_index = 0,
@@ -24,6 +25,7 @@ lotame_audience_affinity <- function(audience_id,
                    audience_id,
                    "/affinity?with_counts=",
                    with_counts,
+                   ifelse(is.null(region_id),"",paste0("&region_id=",region_id)),
                    "&min_uniques=",
                    min_uniques,
                    "&min_affinity=",
