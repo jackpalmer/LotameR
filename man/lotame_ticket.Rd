@@ -15,4 +15,3 @@ ticket granting ticket
 \description{
 Generate a ticket granting ticket from the Lotame API, valid for 3 hours.
 }
-

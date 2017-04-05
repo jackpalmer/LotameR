@@ -9,4 +9,3 @@ lotame_audience_info(audience_id)
 \description{
 This function returns a list containing the information for the requested audience.
 }
-

@@ -11,4 +11,3 @@ lotame_hierarchies_nodes(search_query, client_id,
 \description{
 This function returns a data frame of hierarchies for the search term.
 }
-

@@ -9,4 +9,3 @@ lotame_service_ticket(call)
 \description{
 This function calls the Lotame API for the set path.
 }
-

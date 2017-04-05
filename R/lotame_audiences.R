@@ -13,4 +13,5 @@ lotame_audiences <- function(client_id,
   service_ticket <- lotame_service_ticket(path)
   req <- jsonlite::fromJSON(paste0(path,"&ticket=",service_ticket))
   audiences <- req$Audience
+  audiences <- select(audiences, name, id, description, abbreviation, effectiveCPM, purchased, usage, overlapOnly, lastModified)
 }

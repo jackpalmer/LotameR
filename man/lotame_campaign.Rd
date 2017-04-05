@@ -2,6 +2,7 @@
 % Please edit documentation in R/lotame_campaign.R, R/lotame_campaign_daily.R
 \name{lotame_campaign}
 \alias{lotame_campaign}
+\alias{lotame_campaign}
 \title{Lotame Audiences}
 \usage{
 lotame_campaign(campaign_id, lookback_days = 30)
@@ -13,4 +14,3 @@ This function returns a data frame of audiences for the requested client.
 
 This function returns a data frame of audiences for the requested client.
 }
-

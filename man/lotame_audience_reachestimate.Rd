@@ -9,4 +9,3 @@ lotame_audience_reachestimate(estimate_id)
 \description{
 This function calls the Lotame API.
 }
-

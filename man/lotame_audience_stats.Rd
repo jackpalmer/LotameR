@@ -4,9 +4,9 @@
 \alias{lotame_audience_stats}
 \title{Lotame Audience Affinity}
 \usage{
-lotame_audience_stats(audience_id)
+lotame_audience_stats(client_id, client_as_group = TRUE,
+  group = "audienceId")
 }
 \description{
 This function calls the Lotame API.
 }
-

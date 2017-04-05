@@ -9,4 +9,3 @@ lotame_hierarchies(client_id)
 \description{
 This function returns a data frame of hierarchies for the requested client.
 }
-

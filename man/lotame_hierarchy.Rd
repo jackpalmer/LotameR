@@ -10,4 +10,3 @@ lotame_hierarchy(hierarchy_id, client_id, depth = 0, inc_stats = "true",
 \description{
 This function returns a data frame of hierarchies for the requested client.
 }
-

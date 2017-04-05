@@ -9,4 +9,3 @@ lotame_behavior_alias(audience_id)
 \description{
 This function calls the Lotame API.
 }
-
