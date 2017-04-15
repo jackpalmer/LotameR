@@ -2,7 +2,7 @@
 % Please edit documentation in R/lotame_audience_stats.R
 \name{lotame_audience_stats}
 \alias{lotame_audience_stats}
-\title{Lotame Audience Affinity}
+\title{Lotame Audience Stats}
 \usage{
 lotame_audience_stats(client_id, client_as_group = TRUE,
   group = "audienceId")

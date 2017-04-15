@@ -1,4 +1,4 @@
-#' Lotame Audience Affinity
+#' Lotame Audience Stats
 #'
 #' This function calls the Lotame API.
 #' 

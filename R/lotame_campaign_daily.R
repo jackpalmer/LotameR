@@ -3,8 +3,8 @@
 #'This function returns a data frame of audiences for the requested client.
 #'  
 #'@export 
-lotame_campaign <- function(campaign_id,
-                            lookback_days = 30){
+lotame_campaign_daily <- function(campaign_id,
+                                  lookback_days = 30){
   options(scipen=999)
   path <- paste0("https://api.lotame.com/2/statistics/campaigns/",
                  campaign_id,
