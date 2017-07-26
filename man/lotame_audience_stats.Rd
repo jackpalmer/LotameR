@@ -5,7 +5,9 @@
 \title{Lotame Audience Stats}
 \usage{
 lotame_audience_stats(client_id, client_as_group = TRUE,
-  group = "audienceId")
+  group = "audienceId", date_range = "LAST_30_DAYS",
+  generate_stats = "now", device_graph = FALSE, page_count = 100,
+  page_num = 1, sort_attr = "data_date", sort_order = "ASC")
 }
 \description{
 This function calls the Lotame API.
