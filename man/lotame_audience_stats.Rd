@@ -10,5 +10,5 @@ lotame_audience_stats(client_id, client_as_group = TRUE,
   page_num = 1, sort_attr = "data_date", sort_order = "ASC")
 }
 \description{
-This function calls the Lotame API.
+This function calls the Lotame API and returns audience stats data.
 }
