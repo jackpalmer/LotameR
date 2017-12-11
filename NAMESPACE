@@ -2,6 +2,7 @@
 
 export(lotame_audience_affinity)
 export(lotame_audience_info)
+export(lotame_audience_stats)
 export(lotame_audiences)
 export(lotame_campaign)
 export(lotame_campaign_daily)

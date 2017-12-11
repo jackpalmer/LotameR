@@ -1,7 +1,8 @@
-#' Lotame Audience Stats
-#'
-#' This function calls the Lotame API and returns audience stats data.
-#' 
+#'@title Lotame Audience Stats
+#'@description
+#'This function returns a data frame of statistics for the requested audience
+#'  
+#'@export 
 lotame_audience_stats <- function(client_id,
                                   client_as_group = TRUE,
                                   group = "audienceId",
