@@ -6,8 +6,8 @@
 \usage{
 lotame_audience_affinity(audience_id, region_id = NULL,
   with_counts = "false", min_uniques = 1000, min_index = 0,
-  max_index = 1e+07, min_affinity = 0, max_affinity = 100,
-  min_client_index = 0, max_client_index = 1e+07, with_prices = "true",
+  max_index = 10000000, min_affinity = 0, max_affinity = 100,
+  min_client_index = 0, max_client_index = 10000000, with_prices = "true",
   page_count = 5000, page_num = 1, sort_attr = "index30",
   sort_order = "DESC", paginate_query = FALSE)
 }
